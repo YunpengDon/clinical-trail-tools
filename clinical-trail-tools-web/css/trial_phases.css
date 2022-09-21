@@ -1,0 +1,306 @@
+/*large view*/
+@media (min-width: 992px){
+h2{
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 1rem;
+  text-shadow: 2px 2px 2px #103f5e5e;
+}
+
+h3 {
+    padding-top: 5%;
+    font-size: 1rem;
+    font-family: auto;
+    color: #fffdfded;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container1{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.container2{
+  display: none;
+  }
+.square{
+	width: 10%;
+	height: 60%;
+	background: #00b4d8;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.small-square{
+	width: 5%;
+	height: 60%;
+	background: #ffff00;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.basic-research{
+	
+}
+
+.drug-discovery{
+	background: #48cae4;
+	left: 10%;
+}
+
+.pre-clinical{
+  background: #90e0ef;
+  left: 20%;
+}
+
+.IND{
+  left: 30%;
+  background: #ade8f4;
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+}
+
+.IND h2{
+  text-shadow: 0px 0px 0px #ffffff;
+}
+
+
+.phase-one{
+  left: 35%;
+  background: #76c893;
+}
+
+.phase-two{
+  left: 45%;
+  background: #99d98c;
+}
+
+.phase-three{
+  left: 55%;
+  background: #b5e48c;
+}
+
+.NDA{
+  left: 65%;
+  background: #d9ed92;
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+}
+
+.NDA h2{
+  text-shadow: 0px 0px 0px #ffffff;
+}
+
+.FDA-review{
+  left:70%;
+  background: #d5896f;
+}
+
+.phase-four{
+  left:80%;
+  background: #d7a667;
+}
+
+.tet1{
+  width: 55%;
+  height: 29%;
+  background: #00000014;
+  position: absolute;
+  left: 10%;
+  border-bottom-left-radius: 95%;
+}
+
+.tet2{
+  width: 55%;
+  height: 29%;
+  background: #00000014;
+  position: absolute;
+  top: 31%;
+  left: 10%;
+  border-top-left-radius: 95%;
+}
+
+.clnical-trials{
+	width: 30%;
+	height: 4rem;
+	background: #76C893;
+  background: -moz-linear-gradient(left, #76C893 20%, #B5E48C 100%);
+  background: -webkit-linear-gradient(left, #76C893 20%, #B5E48C 100%);
+  background: linear-gradient(to right, #76C893 40%, #B5E48C 100%);
+	position: absolute;
+  left: 35%;
+  text-align: center;
+}
+
+.clnical-trials h2{
+  margin: 0;
+  line-height: 2rem;
+}
+
+.clear-background{
+  background: #ffffff00;
+}
+
+.CT-offset{
+  top: 4rem;
+}
+
+.vertical-text h2{
+  color: #2c2c2c;
+  transform: rotate(180deg);
+}
+
+.content{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.CT-candidates{
+  top: 50%;
+}
+.CT-content{
+  top: 70%;
+  color: #fffdfded;
+}
+
+.p4-content{
+  top: 80%;
+  color: #fffdfded;
+}
+ 
+}
+
+
+/*mobile view*/
+@media (max-width: 992px){
+  .container1{
+    display: none;
+  }
+  
+  .container2{
+    position: relative;
+  }
+  
+  .container-small{
+    width: 100%;
+    position: absolute;
+  }
+  .container-small-text{
+    width: 100%;
+    position: relative;
+  }
+  
+  .tet1{
+  width: 48%;
+  height: 48rem;
+  background: #00000014;
+  position: absolute;
+  top: 9rem;
+  border-top-right-radius: 99%;
+  }
+
+  .tet2{
+  width: 48%;
+  height: 48rem;
+  background: #00000014;
+  position: absolute;
+  top: 9rem;
+  left: 52%;
+  border-top-left-radius: 99%;
+  }
+  
+  h2{
+    padding-top: 1em;
+    margin: 0;
+    color: #ffffff;
+    font-size: 1.8rem;
+    padding-top: 1rem;
+    text-shadow: 2px 2px 2px #103f5e5e;
+    font-weight: bold;
+  }
+  
+  h3 {
+    padding-top: 0.5em;
+    font-size: 1.3rem;
+    font-family: auto;
+    color: #fffdfded;
+    text-align: center;
+    font-weight: bold;
+  }
+  .square{
+	width: 100%;
+	height: 9rem;
+	
+	padding: 0;
+	margin: 0;
+	border: 0;
+  text-align: center;
+  z-index: 20;
+}
+  .small-square{
+	padding: 0;
+	margin: 0;
+	border: 0;
+  text-align: center;
+  height: 3rem;
+}
+  .small-square h2{
+   color: #212529;
+   text-shadow: 0px 0px 0px #ffffff;
+   padding: 0;
+   line-height: 3rem;
+   font-size: 1.2rem;
+  }
+  
+  
+  .basic-research{
+	  background: #00b4d8;
+  }
+  .drug-discovery{
+	background: #48cae4f0;
+}
+
+  .pre-clinical{
+    background: #90e0ef;
+  }
+
+  .IND{
+    background: #ade8f4;
+  }
+
+  .phase-one{
+    background: #76c893;
+  }
+
+  .phase-two{
+    background: #99d98c;
+  }
+
+  .phase-three{
+    background: #b5e48c;
+    z-index: 30;
+  }
+
+  .NDA{
+    background: #d9ed92;
+  }
+
+
+  .FDA-review{
+    background: #d5896f;
+  }
+
+  .phase-four{
+    background: #d7a667;
+  }
+
+}
